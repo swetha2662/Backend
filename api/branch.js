@@ -6,7 +6,7 @@ const app = express()
 const port = 3000
 const supabase = createClient(
     'https://yxrsrqchqksojocudlox.supabase.co',
-'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl4cnNycWNocWtzb2pvY3VkbG94Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzc1MDIwNTIsImV4cCI6MTk5MzA3ODA1Mn0.7giud7LJFt_LiUKDVpx7QF_0EPpCQcJYto0Yp-OUn4U'
+'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmdnJoZHZ1dmF6a3ZxZnRvZmtwIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY3NzU2MjM1NiwiZXhwIjoxOTkzMTM4MzU2fQ.JlHeYII8n1a9VdImtvbAvmjjgVy-fPO6a-_10d1dxvc'
 );
 app.use(bodyparse.json())
 app.use(
